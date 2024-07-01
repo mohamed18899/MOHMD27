@@ -1,0 +1,194 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "(beta) IRQ HUB V3.9 مطور عراقي", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local UuTab = Window:MakeTab({
+	Name = "ماب البيوت",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+OrionLib:MakeNotification({
+	Name = "!تم التفعيل",
+	Content = "OLKT2 فولو",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+UuTab:AddButton({
+	Name = "ماب البيوت",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+  	end    
+})
+UuTab:AddButton({
+	Name = "ادمن",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+UuTab:AddButton({
+	Name = "fling",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+  	end    
+})
+UuTab:AddButton({
+	Name = "طيران",
+	Callback = function()
+      		print("button pressed")loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+  	end    
+})
+UuTab:AddButton({
+	Name = "طيران سياره",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-Car-Mobile-gui-11884"))()
+  	end    
+})
+UuTab:AddButton({
+	Name = "سكربت رحمه🔞💯",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+UuTab:AddButton({
+	Name = "رقصات",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+  	end    
+})
+UuTab:AddButton({
+	Name = "كيبورد",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+  	end    
+})
+
+
+
+local TtTab = Window:MakeTab({
+	Name = "mm2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local TtSection = TtTab:AddSection({
+	Name = "by OLKT2"
+})
+
+TtTab:AddButton({
+	Name = "تجمبع بيض",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/EGGmm2'))()
+  	end    
+})
+TtTab:AddButton({
+	Name = "mm2 + تجميع فلوس",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+  	end    
+})
+TtTab:AddButton({
+	Name = "mm2",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://raw.githubusercontent.com/Anashatem/S/main/Cg"))()
+  	end    
+})
+TtTab:AddButton({
+	Name = "mm2",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+  	end 
+})   
+TtTab:AddButton({
+	Name = "بصيط mm2",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+  	end    
+})
+TtTab:AddButton({
+	Name = "طيران",
+	Callback = function()
+      		print("button pressed")loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+  	end   
+})
+TtTab:AddButton({
+	Name = "ادمن",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+TtTab:AddButton({
+	Name = "سكربت الرحمه🔞💯",
+	Callback = function()
+      		print("button pressed")local credits = "SystemBroken made by system_calix" loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+  	end    
+})
+TtTab:AddButton({
+	Name = "رقصات",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+  	end    
+})
+TtTab:AddButton({
+	Name = "كيبورد",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+  	end    
+})
+
+local HhTab = Window:MakeTab({
+	Name = "بلوكس فروت",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+HhTab:AddButton({
+	Name = "بلوكس فروت",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
+  	end    
+})
+HhTab:AddButton({
+	Name = "بلوكس فروت",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/Min_XT_V2_.lua")()
+  	end    
+})
+
+local JjTab = Window:MakeTab({
+	Name = "سلاب بتل",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+JjTab:AddButton({
+	Name = "ضربات وهيت بوكس",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet(("https://raw.githubusercontent.com/kviks/SB-Script/main/script")))()
+  	end    
+})
+JjTab:AddButton({
+	Name = "اوتو فارم",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://scriptblox.com/raw/Slap-Battles-Open-source-for-9484"))()
+  	end    
+})
+local VvTab = Window:MakeTab({
+	Name = "برو سكور بتل",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+VvTab:AddButton({
+	Name = "كل شي",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ProSoccer", true))()
+  	end    
+})
+local KkTab = Window:MakeTab({
+	Name = "قاتل ضد الشرف",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+KkTab:AddButton({
+	Name = "هيت بوكس سرعه نطه لانهائي",
+	Callback = function()
+      		print("button pressed")loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurdervssheriff"))()
+  	end    
+})
